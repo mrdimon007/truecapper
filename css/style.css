@@ -1,0 +1,305 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.navbar:first-child{
+	background-color: #ffffff;
+	padding:0;
+}
+.navbar:first-child ul li{
+	padding:8px;
+}
+@media (max-width: 768px) {
+	.navbar:first-child{
+		padding:8px 16px 8px 16px;
+	}
+}
+@media (max-width: 992px) {
+	.navbar-nav li{
+		font-size: 10px;
+	}
+	.navbar:first-child ul li{
+		padding:12px;
+	}
+}
+.navbar:last-child{
+	min-height: 80px;
+	background-color: #a32c2b;
+	opacity: 0.9;
+}
+.navbar:first-child ul li:first-child{
+	background-color: #2c2c2c;
+
+}
+.navbar:first-child ul li:first-child a{
+	color: #ffffff;
+}
+.navbar:first-child ul li:first-child a:hover{
+	color: #d8d8d8;
+}
+#top_bg{
+	margin-top: 135px;
+}
+#top_bg h2{
+	font-size: 45px;
+	text-align: left;
+	background-color: #a72c2b;
+	vertical-align: middle;
+	margin:0;
+	padding:10px;
+}
+#top_bg ul{
+	font-size: 16px;
+	text-align: left;
+	background-color: #151515;
+	padding: 10px 0 10px 40px;
+	padding-left: 40px;
+	opacity: 0.8;
+}
+.slide .carousel-item img{
+	min-height: 320px;
+}
+@media (max-width: 576px) {
+	.col-sm-8{
+		width: 80%;
+	}
+}
+@media (max-width: 1190px) {
+	#top_bg h2{
+		font-size: 30px;
+	}
+}
+@media (max-width: 992px) {
+	#top_bg h2{
+		font-size: 22px;
+	}
+}
+@media (max-width: 768px) {
+	#top_bg h2{
+		font-size: 14px;
+	}
+}
+@media (max-width: 992px) {
+	#top_bg ul{
+		font-size: 13px;
+	}
+}
+@media (max-width: 768px) {
+	#top_bg ul{
+		font-size: 11px;
+	}
+}
+h3{
+	font-size: 28px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+h3::after{
+	content: "";
+	background: #a32c2b;
+	display: block;
+	height: 2px;
+	width: 90px;
+	margin:auto;
+	margin-top: 15px;
+}
+#why_us h2{
+	font-size: 22px;
+
+}
+#why_us{
+	padding-top: 65px;
+}
+#why_us p{
+	color: #939393;
+	font-size: 18px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+#why_us .row p{
+	text-align: left;
+	border-left:2px solid #a32c2b;
+	padding:10px;
+	font-size: 14px;
+	min-height: 180px; 
+}
+.why_img{
+	height: 125px;
+}
+@media (max-width: 768px) {
+	#why_us .row h2{
+		text-align: center;
+	}
+}
+@media (max-width: 768px) {
+	.why_img{
+		text-align: center;
+	}
+}
+#about_us{
+	background-color: #f7f7f7;
+	padding-bottom: 40px;
+}
+#about_us h3{
+	padding-top: 60px;
+}
+#text{
+	position: absolute;
+}
+#top_bg{
+	position: static;
+}
+#price h2{
+	padding-top: 65px;
+	color:#fff;
+	font-size: 28px;
+	margin-bottom: 60px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#price{
+	background: url(../img/marcos-moraes.jpg);
+}
+#price ul li{
+	list-style-type: none;
+	margin-left: -40px;
+}
+#price .head{
+	background-color: #fff;
+	padding:8px;
+	text-align: center;
+	margin:0;
+	text-transform: uppercase;
+	color: #a32c2b;
+	
+}
+#price p{
+	text-transform: uppercase;
+	font-size:18px;
+	margin:0;
+}
+#price .cost p{
+	background-color: #f2f2f2;
+	border-top:8px solid #e4e4e4;
+	text-align: right;
+	padding:20px 30px 10px 0;
+}
+#price .cost span{
+	position: absolute;
+	font-size: 25px;
+	color:#fff;
+	margin-left: -3px;
+	margin-top: 20px;
+}
+#price .coeff{
+	background-color: #f2f2f2;
+	text-align: center;
+	
+}
+#price .coeff p{
+	border-bottom: 2px solid #c2c2c2;
+	margin:0 15px;
+	padding:15px 0;
+}
+#price .buy{
+	background-color: #f2f2f2;
+	padding: 15px;
+}
+#price .buy button{
+	margin:auto;
+	width: 100%;
+	padding: 15px 0;
+	background-color: #c82e2d;
+	border:none;
+	color:#fff;
+}
+#price img{
+	margin-left: -15px;
+	padding-top:8px;
+	position: absolute;
+}
+#price .row{
+	padding-bottom: 40px;
+}
+#subscribe{
+	background-color: #f7f7f7;
+	padding: 60px 0;
+}
+#subscribe h2{
+	border-right: 3px solid #a32c2b;
+	padding:0;
+	text-transform: uppercase;
+	padding-right: 20px;
+	margin-top: 0;
+	text-align: right;
+}
+@media (max-width: 992px){
+	#subscribe h2{
+		font-size: 25px;
+	}
+}
+@media (max-width: 768px){
+	#subscribe h2{
+		text-align: center;
+		border:none;
+	}
+}
+#subscribe p{
+	font-size: 18px;
+	color: #696969;
+	text-align: left;
+	margin-top:5px;
+}
+form .row input{
+	height: 60px;
+	border:none;
+
+	border-bottom: 2px solid #c82e2d;
+	margin:0;
+	border-radius: 0; 
+}
+form button{
+	background-color: #c82e2d;
+	border:none;
+	color:#fff;
+	width: 170px;
+	padding: 18px 0;
+}
+#subscribe form{
+	margin-top: 50px;
+
+}
+#contacts{
+	background-color: #f7f7f7;
+}
+
+#contacts #inp_mail{
+	margin-bottom: 30px;
+}
+#contacts button{
+	  display:block;
+   position: relative;
+   margin:0 auto;
+   margin-top: 30px;
+}
+form .row textarea{
+	border:none;
+
+	border-bottom: 2px solid #c82e2d;
+	margin:0;
+	     border-radius: 0; 
+}
+#contacts form{
+	margin:0;
+	padding-bottom: 60px;
+}
+footer p{
+	text-align: center;
+	color:#fff;
+	padding: 25px;
+	margin:0;
+}
+footer{
+	background-color: #2c2c2c;
+
+}
